@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { 
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background: url(./Images/pexels-photo-2468773.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+#overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    padding: 7px 10px;
+    border-radius: 10px;
+    background: rgb(205, 69, 19);
+}
+
+
+/* Header  */
+
+#main-header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 45px;
+}
+
+#navbar-center {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+#company-text {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+#navbar-center h4 {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#navbar-right h4 {
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#navbar-center h4:hover {
+    border-bottom: 2px solid  rgb(205, 69, 19);
+}
+
+#navbar-right h4:hover {
+    background: none;
+}
+
+/* Main */
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+}
+
+#top-text {
+    padding: 0 150px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#center-text {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#center-text span {
+    padding: 0 100px;
+}
+
+#bottom-text {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 90px;
+    cursor: pointer;
+}
+
+#bottom-text h4:hover {
+    background: none;
+}
